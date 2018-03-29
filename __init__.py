@@ -11,6 +11,7 @@ class Spider:
 if __name__ == "__main__":
     linktag = linktag()
     #url = "http://www.davidbpython.com/advanced_python/python_data/dormouse.html"
-    url = "http://www.google.co.in"
-    crawly = Spider(url,linktag,"crawly")
+    #url = "http://www.google.co.in"
+    url = raw_input("Type the url(with http://):")
+    crawly = Spider(url,linktag,"crawly")       #default port 80
     crawly.crawl()
