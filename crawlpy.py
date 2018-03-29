@@ -17,7 +17,7 @@ class crawlspy:
         
     def crawl(self):
         self.__crawl(self.url)
-        print self.linknodes
+        print "crawling.... " + self.url
         for link in self.linknodes:
             linktagtype = linktag()
             linktagtype.setname()
