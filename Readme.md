@@ -7,7 +7,6 @@ Build from source:<br />
    python __init__.py
 ```
 
-In the repl shell that appears type "stop" to leave or supply three arguments as below:
 ```
     Type the url(with http://):https://about.gitlab.com   #<url> 
 ```
