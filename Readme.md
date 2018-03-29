@@ -9,5 +9,5 @@ Build from source:<br />
 
 In the repl shell that appears type "stop" to leave or supply three arguments as below:
 ```
-    > https://about.gitlab.com 10 1      #<url> <interval(in seconds)> <totaltime(in minutes)> to run the probe
+    Type the url(with http://):https://about.gitlab.com   #<url> 
 ```
